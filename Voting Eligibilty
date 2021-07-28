@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int age;
+  cout<<"Welcome to Vote Elegibility checking service \n";
+  cout<<"Enter your age to check the voting eligbility:\n";
+  cin>>age;
+  if(age>=18)
+ {
+	cout<<"You can vote to BJP as this service is spoosored by Shri Narendra Modi";
+ } 
+  else
+ {
+	cout<<"You are not eligible, please come and vote BJP after 18 as this service is sponsored by Shri Narendra Modi";
+ } 
+ return 0;
+}
+
